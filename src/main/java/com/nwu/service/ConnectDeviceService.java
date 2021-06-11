@@ -3,10 +3,10 @@ package com.nwu.service;
 import com.nwu.lib.NetSDKLib;
 import com.nwu.lib.NetSDKLib.*;
 import com.nwu.lib.ToolKits;
-import org.springframework.stereotype.Service;
+
 import java.io.File;
 
-import static com.nwu.lib.NetSDKLib.EVENT_IVS_ALL;
+import static com.nwu.lib.NetSDKLib.*;
 
 //@Service
 public class ConnectDeviceService {
