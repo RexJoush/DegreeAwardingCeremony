@@ -1,0 +1,18 @@
+Begin Time:2021-06-10T19:29:53.077
+[2021-06-10T19:29:53.077 info Netsdk:48184 106928:117560 AVNetSDKMgr.cpp:378]Load avnetsdk library dynamically
+[2021-06-10T19:29:53.085 info Netsdk:48184 106928:117560 AVNetSDKMgr.cpp:402]avnetsdk module handle: 00000000293B0000
+
+[2021-06-10T19:29:53.085 info Netsdk:48184 106928:117560 AVNetSDKMgr.cpp:734]Load configsdk dynamically
+[2021-06-10T19:29:53.089 info Netsdk:48184 106928:117560 dhnetsdk.cpp:190]Enter CLIENT_SetAutoReconnect:[cbAutoConnect=00000000031C0050, dwUser=0000000000000000].
+[2021-06-10T19:29:53.089 info Netsdk:48184 106928:117560 dhnetsdk.cpp:192]Leave CLIENT_SetAutoReconnect.
+[2021-06-10T19:29:53.089 info Netsdk:48184 106928:117560 dhnetsdk.cpp:210]Enter CLIENT_SetConnectTime:[nWaitTime=5000, nTryTimes=1].
+[2021-06-10T19:29:53.089 info Netsdk:48184 106928:117560 dhnetsdk.cpp:223]Leave CLIENT_SetConnectTime.
+[2021-06-10T19:29:53.103 info Netsdk:48184 106928:117560 dhnetsdk.cpp:234]Enter CLIENT_SetNetworkParam:[nWaittime=0, nConnectTime=10000, nConnectTryNum=0, nSubConnectSpaceTime=0, nGetDevInfoTime=0, nConnectBufSize=0, nGetConnInfoTime=3000, nSearchRecordTime=0, nsubDisconnetTime=0, byNetType=0, byPlaybackBufSize=0, bDetectDisconnTime=0, bKeepLifeInterval=0, nPicBufSize=0].
+[2021-06-10T19:29:53.103 info Netsdk:48184 106928:117560 dhnetsdk.cpp:249]Leave CLIENT_SetNetworkParam.
+[2021-06-10T19:29:53.104 info Netsdk:48184 106928:117560 dhnetsdk.cpp:809]Enter CLIENT_LoginWithHighLevelSecurity. pstInParam:0000000000D5C610, pstOutParam:0000000000D6EEC0.
+[2021-06-10T19:29:53.105 info Netsdk:48184 106928:117560 dhnetsdk.cpp:825]IP:219.245.19.120, port:37777, SpeCap:0, CapParam:0000000000000000.
+[2021-06-10T19:29:53.284 info Netsdk:48184 106928:117560 dhnetsdk.cpp:871]Leave CLIENT_LoginWithHighLevelSecurity. error:0, login ID:0000000024782E80.
+[2021-06-10T19:29:53.287 info Netsdk:48184 106928:117560 dhnetsdk.cpp:9492]Enter CLIENT_RealLoadPictureEx. lLoginID:0000000024782E80, nChannelID:0, dwAlarmType:1, bNeedPicFile:1, cbAnalyzerData:00000000031C0090, dwUser:0000000000000000, Reserved:0000000000000000.
+[2021-06-10T19:29:53.288 info Netsdk:48184 106928:117560 Utils.cpp:4809]mutil NIC client
+[2021-06-10T19:29:53.292 info Netsdk:48184 106928:117560 DevConfigEx.cpp:10179]IN SetupSession PORT=0 and PORT: 37777
+[2021-06-10T19:29:53.323 info Netsdk:48184 106928:117560 dhnetsdk.cpp:9511]Leave CLIENT_RealLoadPictureEx. ret:611950272.
